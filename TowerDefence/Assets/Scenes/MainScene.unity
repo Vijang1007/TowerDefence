@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 8399215}
   - component: {fileID: 8399214}
   - component: {fileID: 8399213}
+  - component: {fileID: 8399216}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -204,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8399214}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8399216}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8399214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +256,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8399211}
   m_CullTransparentMesh: 1
+--- !u!114 &8399216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8399211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &13155058
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,8 +318,9 @@ GameObject:
   - component: {fileID: 18901478}
   - component: {fileID: 18901477}
   - component: {fileID: 18901476}
+  - component: {fileID: 18901479}
   m_Layer: 5
-  m_Name: T
+  m_Name: 80
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +388,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 18901477}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 18901479}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &18901477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,6 +439,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18901474}
   m_CullTransparentMesh: 1
+--- !u!114 &18901479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18901474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &51646826
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,8 +464,9 @@ GameObject:
   - component: {fileID: 51646830}
   - component: {fileID: 51646829}
   - component: {fileID: 51646828}
+  - component: {fileID: 51646831}
   m_Layer: 5
-  m_Name: T
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -481,7 +534,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 51646829}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 51646831}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &51646829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,6 +585,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51646826}
   m_CullTransparentMesh: 1
+--- !u!114 &51646831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51646826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &55417977
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,6 +610,7 @@ GameObject:
   - component: {fileID: 55417981}
   - component: {fileID: 55417980}
   - component: {fileID: 55417979}
+  - component: {fileID: 55417982}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -601,7 +680,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 55417980}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 55417982}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &55417980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,6 +731,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55417977}
   m_CullTransparentMesh: 1
+--- !u!114 &55417982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55417977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &148832011
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +756,7 @@ GameObject:
   - component: {fileID: 148832015}
   - component: {fileID: 148832014}
   - component: {fileID: 148832013}
+  - component: {fileID: 148832016}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -721,7 +826,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 148832014}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 148832016}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &148832014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -760,6 +877,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148832011}
   m_CullTransparentMesh: 1
+--- !u!114 &148832016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148832011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &151927252
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,8 +902,9 @@ GameObject:
   - component: {fileID: 151927256}
   - component: {fileID: 151927255}
   - component: {fileID: 151927254}
+  - component: {fileID: 151927257}
   m_Layer: 5
-  m_Name: T
+  m_Name: 65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -841,7 +972,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 151927255}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 151927257}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &151927255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -880,6 +1023,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151927252}
   m_CullTransparentMesh: 1
+--- !u!114 &151927257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151927252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &155730767
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,6 +1048,7 @@ GameObject:
   - component: {fileID: 155730771}
   - component: {fileID: 155730770}
   - component: {fileID: 155730769}
+  - component: {fileID: 155730772}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -961,7 +1118,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 155730770}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 155730772}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &155730770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1000,6 +1169,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155730767}
   m_CullTransparentMesh: 1
+--- !u!114 &155730772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155730767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &174771288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,6 +1410,7 @@ GameObject:
   - component: {fileID: 239503494}
   - component: {fileID: 239503493}
   - component: {fileID: 239503492}
+  - component: {fileID: 239503495}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -1297,7 +1480,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 239503493}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 239503495}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &239503493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1336,6 +1531,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239503490}
   m_CullTransparentMesh: 1
+--- !u!114 &239503495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239503490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &257218959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,6 +1556,7 @@ GameObject:
   - component: {fileID: 257218963}
   - component: {fileID: 257218962}
   - component: {fileID: 257218961}
+  - component: {fileID: 257218964}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -1417,7 +1626,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 257218962}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 257218964}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &257218962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1456,6 +1677,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257218959}
   m_CullTransparentMesh: 1
+--- !u!114 &257218964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257218959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &280117621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,6 +1702,7 @@ GameObject:
   - component: {fileID: 280117625}
   - component: {fileID: 280117624}
   - component: {fileID: 280117623}
+  - component: {fileID: 280117626}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -1537,7 +1772,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 280117624}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 280117626}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &280117624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1576,6 +1823,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280117621}
   m_CullTransparentMesh: 1
+--- !u!114 &280117626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280117621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &314834801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,8 +1969,9 @@ GameObject:
   - component: {fileID: 350060265}
   - component: {fileID: 350060264}
   - component: {fileID: 350060263}
+  - component: {fileID: 350060266}
   m_Layer: 5
-  m_Name: T
+  m_Name: 40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1778,7 +2039,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 350060264}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 350060266}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &350060264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,6 +2090,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350060261}
   m_CullTransparentMesh: 1
+--- !u!114 &350060266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350060261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &367082022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,6 +2287,7 @@ GameObject:
   - component: {fileID: 388797762}
   - component: {fileID: 388797761}
   - component: {fileID: 388797760}
+  - component: {fileID: 388797763}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -2070,7 +2357,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 388797761}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 388797763}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &388797761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2109,6 +2408,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388797758}
   m_CullTransparentMesh: 1
+--- !u!114 &388797763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388797758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &408675427
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,6 +2597,7 @@ GameObject:
   - component: {fileID: 435815334}
   - component: {fileID: 435815333}
   - component: {fileID: 435815332}
+  - component: {fileID: 435815335}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -2354,7 +2667,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 435815333}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 435815335}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &435815333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2393,6 +2718,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435815330}
   m_CullTransparentMesh: 1
+--- !u!114 &435815335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435815330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &445379696
 GameObject:
   m_ObjectHideFlags: 0
@@ -2405,6 +2743,7 @@ GameObject:
   - component: {fileID: 445379700}
   - component: {fileID: 445379699}
   - component: {fileID: 445379698}
+  - component: {fileID: 445379701}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -2474,7 +2813,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 445379699}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 445379701}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &445379699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2513,6 +2864,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445379696}
   m_CullTransparentMesh: 1
+--- !u!114 &445379701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445379696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &459913324
 GameObject:
   m_ObjectHideFlags: 0
@@ -2658,6 +3022,7 @@ GameObject:
   - component: {fileID: 485930734}
   - component: {fileID: 485930733}
   - component: {fileID: 485930732}
+  - component: {fileID: 485930735}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -2727,7 +3092,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 485930733}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 485930735}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &485930733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2766,6 +3143,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485930730}
   m_CullTransparentMesh: 1
+--- !u!114 &485930735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485930730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &498225062
 GameObject:
   m_ObjectHideFlags: 0
@@ -2857,6 +3247,7 @@ GameObject:
   - component: {fileID: 509727491}
   - component: {fileID: 509727490}
   - component: {fileID: 509727489}
+  - component: {fileID: 509727492}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -2926,7 +3317,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 509727490}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 509727492}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &509727490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2965,6 +3368,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509727487}
   m_CullTransparentMesh: 1
+--- !u!114 &509727492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509727487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &510782140
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,6 +3393,7 @@ GameObject:
   - component: {fileID: 510782144}
   - component: {fileID: 510782143}
   - component: {fileID: 510782142}
+  - component: {fileID: 510782145}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -3046,7 +3463,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 510782143}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 510782145}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &510782143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3085,6 +3514,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510782140}
   m_CullTransparentMesh: 1
+--- !u!114 &510782145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510782140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &525822488
 GameObject:
   m_ObjectHideFlags: 0
@@ -3097,6 +3539,7 @@ GameObject:
   - component: {fileID: 525822492}
   - component: {fileID: 525822491}
   - component: {fileID: 525822490}
+  - component: {fileID: 525822493}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -3166,7 +3609,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 525822491}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 525822493}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &525822491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3205,6 +3660,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525822488}
   m_CullTransparentMesh: 1
+--- !u!114 &525822493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525822488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &532196806
 GameObject:
   m_ObjectHideFlags: 0
@@ -3217,6 +3685,7 @@ GameObject:
   - component: {fileID: 532196810}
   - component: {fileID: 532196809}
   - component: {fileID: 532196808}
+  - component: {fileID: 532196811}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -3286,7 +3755,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 532196809}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 532196811}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &532196809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3325,6 +3806,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532196806}
   m_CullTransparentMesh: 1
+--- !u!114 &532196811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532196806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &547571262
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,6 +3831,7 @@ GameObject:
   - component: {fileID: 547571266}
   - component: {fileID: 547571265}
   - component: {fileID: 547571264}
+  - component: {fileID: 547571267}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -3406,7 +3901,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 547571265}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 547571267}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &547571265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3445,6 +3952,94 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547571262}
   m_CullTransparentMesh: 1
+--- !u!114 &547571267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547571262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
+--- !u!1 &568342410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 568342411}
+  - component: {fileID: 568342413}
+  - component: {fileID: 568342412}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &568342411
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568342410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2016479699}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 5}
+  m_SizeDelta: {x: 50, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &568342412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568342410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f94df059a55ade342918fe7d0e8c2299, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &568342413
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568342410}
+  m_CullTransparentMesh: 1
 --- !u!1 &578215932
 GameObject:
   m_ObjectHideFlags: 0
@@ -3474,8 +4069,99 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475334d65d487345bc8bef43122b5d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlay: 0
   Goldtext: {fileID: 195329845}
   OptionUI: {fileID: 1632286955}
+  T:
+  - {fileID: 987792462}
+  - {fileID: 2139769657}
+  - {fileID: 1095925394}
+  - {fileID: 1735070495}
+  - {fileID: 51646826}
+  - {fileID: 2023016142}
+  - {fileID: 1118146644}
+  - {fileID: 935640843}
+  - {fileID: 1952143329}
+  - {fileID: 2142365961}
+  - {fileID: 1603382001}
+  - {fileID: 2123258236}
+  - {fileID: 1738294018}
+  - {fileID: 994223015}
+  - {fileID: 1468965769}
+  - {fileID: 1494170392}
+  - {fileID: 840143467}
+  - {fileID: 485930730}
+  - {fileID: 1100663748}
+  - {fileID: 1135710042}
+  - {fileID: 1895194426}
+  - {fileID: 1603599622}
+  - {fileID: 1414268886}
+  - {fileID: 148832011}
+  - {fileID: 1622261398}
+  - {fileID: 1870957805}
+  - {fileID: 620225689}
+  - {fileID: 1669792092}
+  - {fileID: 1676999478}
+  - {fileID: 1792666165}
+  - {fileID: 1206936220}
+  - {fileID: 155730767}
+  - {fileID: 1925131926}
+  - {fileID: 1040289280}
+  - {fileID: 2050574557}
+  - {fileID: 2080169379}
+  - {fileID: 804290801}
+  - {fileID: 388797758}
+  - {fileID: 1761486995}
+  - {fileID: 350060261}
+  - {fileID: 532196806}
+  - {fileID: 1413024034}
+  - {fileID: 644425345}
+  - {fileID: 1383753037}
+  - {fileID: 2099798303}
+  - {fileID: 895544669}
+  - {fileID: 908222893}
+  - {fileID: 445379696}
+  - {fileID: 1667149942}
+  - {fileID: 1575325515}
+  - {fileID: 1197495057}
+  - {fileID: 629678561}
+  - {fileID: 435815330}
+  - {fileID: 1300456841}
+  - {fileID: 922437320}
+  - {fileID: 905239623}
+  - {fileID: 8399211}
+  - {fileID: 547571262}
+  - {fileID: 1376039351}
+  - {fileID: 1110722524}
+  - {fileID: 257218959}
+  - {fileID: 895375853}
+  - {fileID: 984210979}
+  - {fileID: 821534795}
+  - {fileID: 151927252}
+  - {fileID: 710363286}
+  - {fileID: 956484388}
+  - {fileID: 525822488}
+  - {fileID: 1665165569}
+  - {fileID: 1002125550}
+  - {fileID: 509727487}
+  - {fileID: 840642634}
+  - {fileID: 280117621}
+  - {fileID: 683207113}
+  - {fileID: 1672585449}
+  - {fileID: 510782140}
+  - {fileID: 2115092138}
+  - {fileID: 2115092138}
+  - {fileID: 2131728342}
+  - {fileID: 18901474}
+  - {fileID: 55417977}
+  - {fileID: 1407473506}
+  - {fileID: 239503490}
+  - {fileID: 2114402571}
+  Tower:
+  - {fileID: 1422567740}
+  - {fileID: 1479298624}
+  - {fileID: 2016479698}
+  - {fileID: 678523119}
 --- !u!4 &578215934
 Transform:
   m_ObjectHideFlags: 0
@@ -3635,6 +4321,7 @@ GameObject:
   - component: {fileID: 620225693}
   - component: {fileID: 620225692}
   - component: {fileID: 620225691}
+  - component: {fileID: 620225694}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -3704,7 +4391,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 620225692}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 620225694}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &620225692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3743,6 +4442,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620225689}
   m_CullTransparentMesh: 1
+--- !u!114 &620225694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620225689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &629678561
 GameObject:
   m_ObjectHideFlags: 0
@@ -3755,6 +4467,7 @@ GameObject:
   - component: {fileID: 629678565}
   - component: {fileID: 629678564}
   - component: {fileID: 629678563}
+  - component: {fileID: 629678566}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -3824,7 +4537,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 629678564}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 629678566}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &629678564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3863,6 +4588,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629678561}
   m_CullTransparentMesh: 1
+--- !u!114 &629678566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629678561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &644425345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3875,6 +4613,7 @@ GameObject:
   - component: {fileID: 644425349}
   - component: {fileID: 644425348}
   - component: {fileID: 644425347}
+  - component: {fileID: 644425350}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -3944,7 +4683,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 644425348}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 644425350}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &644425348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3983,6 +4734,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644425345}
   m_CullTransparentMesh: 1
+--- !u!114 &644425350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644425345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &654728613
 GameObject:
   m_ObjectHideFlags: 0
@@ -4119,6 +4883,128 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654728613}
   m_CullTransparentMesh: 1
+--- !u!1 &678523119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 678523120}
+  - component: {fileID: 678523123}
+  - component: {fileID: 678523122}
+  - component: {fileID: 678523121}
+  m_Layer: 5
+  m_Name: To4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &678523120
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678523119}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 995306513}
+  - {fileID: 1057842598}
+  m_Father: {fileID: 1322404850}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 40, y: -40}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &678523121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678523119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 678523122}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &678523122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678523119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.3137255}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &678523123
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678523119}
+  m_CullTransparentMesh: 1
 --- !u!1 &683207113
 GameObject:
   m_ObjectHideFlags: 0
@@ -4131,6 +5017,7 @@ GameObject:
   - component: {fileID: 683207117}
   - component: {fileID: 683207116}
   - component: {fileID: 683207115}
+  - component: {fileID: 683207118}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -4200,7 +5087,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 683207116}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 683207118}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &683207116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4239,6 +5138,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683207113}
   m_CullTransparentMesh: 1
+--- !u!114 &683207118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683207113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &710363286
 GameObject:
   m_ObjectHideFlags: 0
@@ -4251,6 +5163,7 @@ GameObject:
   - component: {fileID: 710363290}
   - component: {fileID: 710363289}
   - component: {fileID: 710363288}
+  - component: {fileID: 710363291}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -4320,7 +5233,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 710363289}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 710363291}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &710363289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4359,6 +5284,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710363286}
   m_CullTransparentMesh: 1
+--- !u!114 &710363291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710363286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &719333888
 GameObject:
   m_ObjectHideFlags: 0
@@ -4441,7 +5379,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 719333891}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 578215933}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &719333891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4512,9 +5462,9 @@ RectTransform:
   m_Father: {fileID: 385414694}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 860, y: 440}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -717, y: -372}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &797715853
@@ -4651,6 +5601,7 @@ GameObject:
   - component: {fileID: 804290805}
   - component: {fileID: 804290804}
   - component: {fileID: 804290803}
+  - component: {fileID: 804290806}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -4720,7 +5671,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 804290804}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 804290806}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &804290804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4759,6 +5722,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804290801}
   m_CullTransparentMesh: 1
+--- !u!114 &804290806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804290801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &821534795
 GameObject:
   m_ObjectHideFlags: 0
@@ -4771,6 +5747,7 @@ GameObject:
   - component: {fileID: 821534799}
   - component: {fileID: 821534798}
   - component: {fileID: 821534797}
+  - component: {fileID: 821534800}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -4840,7 +5817,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 821534798}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 821534800}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &821534798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4879,6 +5868,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821534795}
   m_CullTransparentMesh: 1
+--- !u!114 &821534800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821534795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &840143467
 GameObject:
   m_ObjectHideFlags: 0
@@ -4891,6 +5893,7 @@ GameObject:
   - component: {fileID: 840143471}
   - component: {fileID: 840143470}
   - component: {fileID: 840143469}
+  - component: {fileID: 840143472}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -4960,7 +5963,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 840143470}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 840143472}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &840143470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4999,6 +6014,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840143467}
   m_CullTransparentMesh: 1
+--- !u!114 &840143472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840143467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &840642634
 GameObject:
   m_ObjectHideFlags: 0
@@ -5011,6 +6039,7 @@ GameObject:
   - component: {fileID: 840642638}
   - component: {fileID: 840642637}
   - component: {fileID: 840642636}
+  - component: {fileID: 840642639}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -5080,7 +6109,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 840642637}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 840642639}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &840642637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5119,6 +6160,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840642634}
   m_CullTransparentMesh: 1
+--- !u!114 &840642639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840642634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &855379343
 GameObject:
   m_ObjectHideFlags: 0
@@ -5265,6 +6319,7 @@ GameObject:
   - component: {fileID: 895375857}
   - component: {fileID: 895375856}
   - component: {fileID: 895375855}
+  - component: {fileID: 895375858}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -5334,7 +6389,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 895375856}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 895375858}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &895375856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5373,6 +6440,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895375853}
   m_CullTransparentMesh: 1
+--- !u!114 &895375858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895375853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &895544669
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,6 +6465,7 @@ GameObject:
   - component: {fileID: 895544673}
   - component: {fileID: 895544672}
   - component: {fileID: 895544671}
+  - component: {fileID: 895544674}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -5454,7 +6535,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 895544672}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 895544674}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &895544672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5493,6 +6586,98 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895544669}
   m_CullTransparentMesh: 1
+--- !u!114 &895544674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895544669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
+--- !u!1 &902877340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902877341}
+  - component: {fileID: 902877343}
+  - component: {fileID: 902877342}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &902877341
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902877340}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1479298625}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: 0, y: -50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &902877342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902877340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 0ed72ca42ad5c9f4aade7c90c70f090e, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 150
+--- !u!222 &902877343
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902877340}
+  m_CullTransparentMesh: 1
 --- !u!1 &905239623
 GameObject:
   m_ObjectHideFlags: 0
@@ -5505,6 +6690,7 @@ GameObject:
   - component: {fileID: 905239627}
   - component: {fileID: 905239626}
   - component: {fileID: 905239625}
+  - component: {fileID: 905239628}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -5574,7 +6760,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 905239626}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 905239628}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &905239626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5613,6 +6811,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905239623}
   m_CullTransparentMesh: 1
+--- !u!114 &905239628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905239623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &908222893
 GameObject:
   m_ObjectHideFlags: 0
@@ -5625,6 +6836,7 @@ GameObject:
   - component: {fileID: 908222897}
   - component: {fileID: 908222896}
   - component: {fileID: 908222895}
+  - component: {fileID: 908222898}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -5694,7 +6906,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 908222896}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 908222898}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &908222896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5733,6 +6957,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908222893}
   m_CullTransparentMesh: 1
+--- !u!114 &908222898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908222893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &922437320
 GameObject:
   m_ObjectHideFlags: 0
@@ -5745,8 +6982,9 @@ GameObject:
   - component: {fileID: 922437324}
   - component: {fileID: 922437323}
   - component: {fileID: 922437322}
+  - component: {fileID: 922437325}
   m_Layer: 5
-  m_Name: T
+  m_Name: 55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5814,7 +7052,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 922437323}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 922437325}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &922437323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5853,6 +7103,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922437320}
   m_CullTransparentMesh: 1
+--- !u!114 &922437325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922437320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &935640843
 GameObject:
   m_ObjectHideFlags: 0
@@ -5865,6 +7128,7 @@ GameObject:
   - component: {fileID: 935640847}
   - component: {fileID: 935640846}
   - component: {fileID: 935640845}
+  - component: {fileID: 935640848}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -5934,7 +7198,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 935640846}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 935640848}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &935640846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5973,6 +7249,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935640843}
   m_CullTransparentMesh: 1
+--- !u!114 &935640848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935640843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &956484388
 GameObject:
   m_ObjectHideFlags: 0
@@ -5985,6 +7274,7 @@ GameObject:
   - component: {fileID: 956484392}
   - component: {fileID: 956484391}
   - component: {fileID: 956484390}
+  - component: {fileID: 956484393}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -6054,7 +7344,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 956484391}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 956484393}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &956484391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6093,6 +7395,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956484388}
   m_CullTransparentMesh: 1
+--- !u!114 &956484393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956484388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &959570016
 GameObject:
   m_ObjectHideFlags: 0
@@ -6225,6 +7540,7 @@ GameObject:
   - component: {fileID: 984210983}
   - component: {fileID: 984210982}
   - component: {fileID: 984210981}
+  - component: {fileID: 984210984}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -6294,7 +7610,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 984210982}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 984210984}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &984210982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6333,6 +7661,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984210979}
   m_CullTransparentMesh: 1
+--- !u!114 &984210984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984210979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &987792462
 GameObject:
   m_ObjectHideFlags: 0
@@ -6345,8 +7686,9 @@ GameObject:
   - component: {fileID: 987792466}
   - component: {fileID: 987792465}
   - component: {fileID: 987792464}
+  - component: {fileID: 987792467}
   m_Layer: 5
-  m_Name: T
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6414,7 +7756,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 987792465}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 987792467}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &987792465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6453,6 +7807,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987792462}
   m_CullTransparentMesh: 1
+--- !u!114 &987792467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987792462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &994223015
 GameObject:
   m_ObjectHideFlags: 0
@@ -6465,6 +7832,7 @@ GameObject:
   - component: {fileID: 994223019}
   - component: {fileID: 994223018}
   - component: {fileID: 994223017}
+  - component: {fileID: 994223020}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -6534,7 +7902,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 994223018}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 994223020}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &994223018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6573,6 +7953,98 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994223015}
   m_CullTransparentMesh: 1
+--- !u!114 &994223020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994223015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
+--- !u!1 &995306512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995306513}
+  - component: {fileID: 995306515}
+  - component: {fileID: 995306514}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &995306513
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995306512}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 678523120}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: 0, y: -50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &995306514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995306512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 0ed72ca42ad5c9f4aade7c90c70f090e, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 150
+--- !u!222 &995306515
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995306512}
+  m_CullTransparentMesh: 1
 --- !u!1 &1002125550
 GameObject:
   m_ObjectHideFlags: 0
@@ -6585,8 +8057,9 @@ GameObject:
   - component: {fileID: 1002125554}
   - component: {fileID: 1002125553}
   - component: {fileID: 1002125552}
+  - component: {fileID: 1002125555}
   m_Layer: 5
-  m_Name: T
+  m_Name: 70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6654,7 +8127,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1002125553}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1002125555}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1002125553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6693,6 +8178,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002125550}
   m_CullTransparentMesh: 1
+--- !u!114 &1002125555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002125550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1016377751
 GameObject:
   m_ObjectHideFlags: 0
@@ -6780,6 +8278,7 @@ GameObject:
   - component: {fileID: 1040289284}
   - component: {fileID: 1040289283}
   - component: {fileID: 1040289282}
+  - component: {fileID: 1040289285}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -6849,7 +8348,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1040289283}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1040289285}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1040289283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6887,6 +8398,94 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040289280}
+  m_CullTransparentMesh: 1
+--- !u!114 &1040289285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040289280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
+--- !u!1 &1057842597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1057842598}
+  - component: {fileID: 1057842600}
+  - component: {fileID: 1057842599}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1057842598
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057842597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 678523120}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 7.5}
+  m_SizeDelta: {x: 40, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1057842599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057842597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 677b4bafa69a3f24b904f82f7fc3deee, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1057842600
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057842597}
   m_CullTransparentMesh: 1
 --- !u!1 &1093221014
 GameObject:
@@ -6982,6 +8581,7 @@ GameObject:
   - component: {fileID: 1095925398}
   - component: {fileID: 1095925397}
   - component: {fileID: 1095925396}
+  - component: {fileID: 1095925399}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -7051,7 +8651,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1095925397}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095925399}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1095925397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7090,6 +8702,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095925394}
   m_CullTransparentMesh: 1
+--- !u!114 &1095925399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095925394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1100663748
 GameObject:
   m_ObjectHideFlags: 0
@@ -7102,6 +8727,7 @@ GameObject:
   - component: {fileID: 1100663752}
   - component: {fileID: 1100663751}
   - component: {fileID: 1100663750}
+  - component: {fileID: 1100663753}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -7171,7 +8797,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1100663751}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1100663753}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1100663751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7210,6 +8848,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100663748}
   m_CullTransparentMesh: 1
+--- !u!114 &1100663753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100663748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1105703054
 GameObject:
   m_ObjectHideFlags: 0
@@ -7221,6 +8872,9 @@ GameObject:
   - component: {fileID: 1105703056}
   - component: {fileID: 1105703055}
   - component: {fileID: 1105703057}
+  - component: {fileID: 1105703058}
+  - component: {fileID: 1105703060}
+  - component: {fileID: 1105703059}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -7287,8 +8941,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105703054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.5, y: 3.3, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: 1050, y: 360, z: 0}
+  m_LocalScale: {x: 300, y: 300, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -7312,6 +8966,55 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1105703058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105703054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 334d19230c891d14088614afb6c28185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &1105703059
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105703054}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &1105703060
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105703054}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1
 --- !u!1 &1110722524
 GameObject:
   m_ObjectHideFlags: 0
@@ -7324,8 +9027,9 @@ GameObject:
   - component: {fileID: 1110722528}
   - component: {fileID: 1110722527}
   - component: {fileID: 1110722526}
+  - component: {fileID: 1110722529}
   m_Layer: 5
-  m_Name: T
+  m_Name: 60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7393,7 +9097,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1110722527}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1110722529}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1110722527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7432,6 +9148,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110722524}
   m_CullTransparentMesh: 1
+--- !u!114 &1110722529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110722524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1118146644
 GameObject:
   m_ObjectHideFlags: 0
@@ -7444,6 +9173,7 @@ GameObject:
   - component: {fileID: 1118146648}
   - component: {fileID: 1118146647}
   - component: {fileID: 1118146646}
+  - component: {fileID: 1118146649}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -7513,7 +9243,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1118146647}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1118146649}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1118146647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7552,6 +9294,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118146644}
   m_CullTransparentMesh: 1
+--- !u!114 &1118146649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118146644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1135710042
 GameObject:
   m_ObjectHideFlags: 0
@@ -7564,8 +9319,9 @@ GameObject:
   - component: {fileID: 1135710046}
   - component: {fileID: 1135710045}
   - component: {fileID: 1135710044}
+  - component: {fileID: 1135710047}
   m_Layer: 5
-  m_Name: T
+  m_Name: 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7633,7 +9389,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1135710045}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1135710047}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1135710045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7672,6 +9440,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135710042}
   m_CullTransparentMesh: 1
+--- !u!114 &1135710047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135710042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1186309068
 GameObject:
   m_ObjectHideFlags: 0
@@ -7820,6 +9601,7 @@ GameObject:
   - component: {fileID: 1197495061}
   - component: {fileID: 1197495060}
   - component: {fileID: 1197495059}
+  - component: {fileID: 1197495062}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -7889,7 +9671,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1197495060}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1197495062}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1197495060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7928,6 +9722,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197495057}
   m_CullTransparentMesh: 1
+--- !u!114 &1197495062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197495057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1205988238
 GameObject:
   m_ObjectHideFlags: 0
@@ -8015,6 +9822,7 @@ GameObject:
   - component: {fileID: 1206936224}
   - component: {fileID: 1206936223}
   - component: {fileID: 1206936222}
+  - component: {fileID: 1206936225}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -8084,7 +9892,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1206936223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1206936225}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1206936223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8123,6 +9943,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206936220}
   m_CullTransparentMesh: 1
+--- !u!114 &1206936225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206936220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1300456841
 GameObject:
   m_ObjectHideFlags: 0
@@ -8135,6 +9968,7 @@ GameObject:
   - component: {fileID: 1300456845}
   - component: {fileID: 1300456844}
   - component: {fileID: 1300456843}
+  - component: {fileID: 1300456846}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -8204,7 +10038,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1300456844}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1300456846}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1300456844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8243,6 +10089,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300456841}
   m_CullTransparentMesh: 1
+--- !u!114 &1300456846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300456841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
+--- !u!1 &1322404849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1322404850}
+  m_Layer: 5
+  m_Name: Towers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1322404850
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322404849}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1422567741}
+  - {fileID: 1479298625}
+  - {fileID: 2016479699}
+  - {fileID: 678523120}
+  m_Father: {fileID: 2017782461}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1325593398
 GameObject:
   m_ObjectHideFlags: 0
@@ -8710,6 +10608,7 @@ GameObject:
   - component: {fileID: 1376039355}
   - component: {fileID: 1376039354}
   - component: {fileID: 1376039353}
+  - component: {fileID: 1376039356}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -8779,7 +10678,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1376039354}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1376039356}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1376039354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8818,6 +10729,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376039351}
   m_CullTransparentMesh: 1
+--- !u!114 &1376039356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376039351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1383753037
 GameObject:
   m_ObjectHideFlags: 0
@@ -8830,6 +10754,7 @@ GameObject:
   - component: {fileID: 1383753041}
   - component: {fileID: 1383753040}
   - component: {fileID: 1383753039}
+  - component: {fileID: 1383753042}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -8899,7 +10824,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1383753040}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1383753042}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1383753040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8938,6 +10875,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383753037}
   m_CullTransparentMesh: 1
+--- !u!114 &1383753042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383753037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1394570164
 GameObject:
   m_ObjectHideFlags: 0
@@ -9016,6 +10966,7 @@ GameObject:
   - component: {fileID: 1407473510}
   - component: {fileID: 1407473509}
   - component: {fileID: 1407473508}
+  - component: {fileID: 1407473511}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -9085,7 +11036,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1407473509}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407473511}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1407473509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9124,6 +11087,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407473506}
   m_CullTransparentMesh: 1
+--- !u!114 &1407473511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407473506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1413024034
 GameObject:
   m_ObjectHideFlags: 0
@@ -9136,6 +11112,7 @@ GameObject:
   - component: {fileID: 1413024038}
   - component: {fileID: 1413024037}
   - component: {fileID: 1413024036}
+  - component: {fileID: 1413024039}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -9205,7 +11182,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1413024037}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1413024039}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1413024037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9244,6 +11233,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413024034}
   m_CullTransparentMesh: 1
+--- !u!114 &1413024039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413024034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1414268886
 GameObject:
   m_ObjectHideFlags: 0
@@ -9256,6 +11258,7 @@ GameObject:
   - component: {fileID: 1414268890}
   - component: {fileID: 1414268889}
   - component: {fileID: 1414268888}
+  - component: {fileID: 1414268891}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -9325,7 +11328,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1414268889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1414268891}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1414268889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9363,6 +11378,141 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414268886}
+  m_CullTransparentMesh: 1
+--- !u!114 &1414268891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414268886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
+--- !u!1 &1422567740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422567741}
+  - component: {fileID: 1422567744}
+  - component: {fileID: 1422567743}
+  - component: {fileID: 1422567742}
+  m_Layer: 5
+  m_Name: To1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1422567741
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422567740}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1558491032}
+  - {fileID: 1465601997}
+  m_Father: {fileID: 1322404850}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -40, y: 40}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1422567742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422567740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1422567743}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1422567743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422567740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.3137255}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1422567744
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422567740}
   m_CullTransparentMesh: 1
 --- !u!1 &1431045587
 GameObject:
@@ -9443,6 +11593,160 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431045587}
   m_CullTransparentMesh: 1
+--- !u!1 &1450211416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1450211417}
+  - component: {fileID: 1450211419}
+  - component: {fileID: 1450211418}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1450211417
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450211416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2016479699}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: 0, y: -50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1450211418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450211416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 0ed72ca42ad5c9f4aade7c90c70f090e, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 200
+--- !u!222 &1450211419
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450211416}
+  m_CullTransparentMesh: 1
+--- !u!1 &1465601996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1465601997}
+  - component: {fileID: 1465601999}
+  - component: {fileID: 1465601998}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1465601997
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465601996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1422567741}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 7.5}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1465601998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465601996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c2fcd762a8bd6cf4dbd18ba12ddc1525, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1465601999
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465601996}
+  m_CullTransparentMesh: 1
 --- !u!1 &1468965769
 GameObject:
   m_ObjectHideFlags: 0
@@ -9455,8 +11759,9 @@ GameObject:
   - component: {fileID: 1468965773}
   - component: {fileID: 1468965772}
   - component: {fileID: 1468965771}
+  - component: {fileID: 1468965774}
   m_Layer: 5
-  m_Name: T
+  m_Name: 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9524,7 +11829,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1468965772}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1468965774}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1468965772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9563,6 +11880,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468965769}
   m_CullTransparentMesh: 1
+--- !u!114 &1468965774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468965769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
+--- !u!1 &1479298624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1479298625}
+  - component: {fileID: 1479298628}
+  - component: {fileID: 1479298627}
+  - component: {fileID: 1479298626}
+  m_Layer: 5
+  m_Name: To2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1479298625
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479298624}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 902877341}
+  - {fileID: 1961508191}
+  m_Father: {fileID: 1322404850}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 40, y: 40}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1479298626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479298624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1479298627}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1479298627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479298624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.3137255}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1479298628
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479298624}
+  m_CullTransparentMesh: 1
 --- !u!1 &1494170392
 GameObject:
   m_ObjectHideFlags: 0
@@ -9575,6 +12027,7 @@ GameObject:
   - component: {fileID: 1494170396}
   - component: {fileID: 1494170395}
   - component: {fileID: 1494170394}
+  - component: {fileID: 1494170397}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -9644,7 +12097,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1494170395}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1494170397}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1494170395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9683,6 +12148,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494170392}
   m_CullTransparentMesh: 1
+--- !u!114 &1494170397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494170392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1519792837
 GameObject:
   m_ObjectHideFlags: 0
@@ -9805,6 +12283,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519792837}
   m_CullTransparentMesh: 1
+--- !u!1 &1558491031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558491032}
+  - component: {fileID: 1558491034}
+  - component: {fileID: 1558491033}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1558491032
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558491031}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1422567741}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: 0, y: -50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1558491033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558491031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 0ed72ca42ad5c9f4aade7c90c70f090e, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 100
+--- !u!222 &1558491034
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558491031}
+  m_CullTransparentMesh: 1
 --- !u!1 &1575325515
 GameObject:
   m_ObjectHideFlags: 0
@@ -9817,8 +12374,9 @@ GameObject:
   - component: {fileID: 1575325519}
   - component: {fileID: 1575325518}
   - component: {fileID: 1575325517}
+  - component: {fileID: 1575325520}
   m_Layer: 5
-  m_Name: T
+  m_Name: 50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9886,7 +12444,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1575325518}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1575325520}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1575325518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9925,6 +12495,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575325515}
   m_CullTransparentMesh: 1
+--- !u!114 &1575325520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575325515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1603382001
 GameObject:
   m_ObjectHideFlags: 0
@@ -9937,6 +12520,7 @@ GameObject:
   - component: {fileID: 1603382005}
   - component: {fileID: 1603382004}
   - component: {fileID: 1603382003}
+  - component: {fileID: 1603382006}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -10006,7 +12590,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1603382004}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1603382006}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1603382004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10045,6 +12641,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603382001}
   m_CullTransparentMesh: 1
+--- !u!114 &1603382006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603382001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1603599622
 GameObject:
   m_ObjectHideFlags: 0
@@ -10057,6 +12666,7 @@ GameObject:
   - component: {fileID: 1603599626}
   - component: {fileID: 1603599625}
   - component: {fileID: 1603599624}
+  - component: {fileID: 1603599627}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -10126,7 +12736,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1603599625}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1603599627}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1603599625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10165,6 +12787,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603599622}
   m_CullTransparentMesh: 1
+--- !u!114 &1603599627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603599622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1622261398
 GameObject:
   m_ObjectHideFlags: 0
@@ -10177,8 +12812,9 @@ GameObject:
   - component: {fileID: 1622261402}
   - component: {fileID: 1622261401}
   - component: {fileID: 1622261400}
+  - component: {fileID: 1622261403}
   m_Layer: 5
-  m_Name: T
+  m_Name: 25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10246,7 +12882,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1622261401}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1622261403}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1622261401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10285,6 +12933,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622261398}
   m_CullTransparentMesh: 1
+--- !u!114 &1622261403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622261398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1632286955
 GameObject:
   m_ObjectHideFlags: 0
@@ -10339,7 +13000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1635647629
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10779,6 +13440,7 @@ GameObject:
   - component: {fileID: 1665165573}
   - component: {fileID: 1665165572}
   - component: {fileID: 1665165571}
+  - component: {fileID: 1665165574}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -10848,7 +13510,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1665165572}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1665165574}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1665165572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10887,6 +13561,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665165569}
   m_CullTransparentMesh: 1
+--- !u!114 &1665165574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665165569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1667149942
 GameObject:
   m_ObjectHideFlags: 0
@@ -10899,6 +13586,7 @@ GameObject:
   - component: {fileID: 1667149946}
   - component: {fileID: 1667149945}
   - component: {fileID: 1667149944}
+  - component: {fileID: 1667149947}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -10968,7 +13656,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1667149945}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1667149947}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1667149945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11007,6 +13707,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667149942}
   m_CullTransparentMesh: 1
+--- !u!114 &1667149947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667149942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1669792092
 GameObject:
   m_ObjectHideFlags: 0
@@ -11019,6 +13732,7 @@ GameObject:
   - component: {fileID: 1669792096}
   - component: {fileID: 1669792095}
   - component: {fileID: 1669792094}
+  - component: {fileID: 1669792097}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -11088,7 +13802,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1669792095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1669792097}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1669792095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11127,6 +13853,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669792092}
   m_CullTransparentMesh: 1
+--- !u!114 &1669792097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669792092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1672585449
 GameObject:
   m_ObjectHideFlags: 0
@@ -11139,8 +13878,9 @@ GameObject:
   - component: {fileID: 1672585453}
   - component: {fileID: 1672585452}
   - component: {fileID: 1672585451}
+  - component: {fileID: 1672585454}
   m_Layer: 5
-  m_Name: T
+  m_Name: 75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11208,7 +13948,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1672585452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1672585454}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1672585452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11247,6 +13999,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672585449}
   m_CullTransparentMesh: 1
+--- !u!114 &1672585454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672585449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1676999478
 GameObject:
   m_ObjectHideFlags: 0
@@ -11259,6 +14024,7 @@ GameObject:
   - component: {fileID: 1676999482}
   - component: {fileID: 1676999481}
   - component: {fileID: 1676999480}
+  - component: {fileID: 1676999483}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -11328,7 +14094,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1676999481}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1676999483}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1676999481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11367,6 +14145,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676999478}
   m_CullTransparentMesh: 1
+--- !u!114 &1676999483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676999478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1679981779
 GameObject:
   m_ObjectHideFlags: 0
@@ -11420,7 +14211,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 570
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11742,6 +14533,7 @@ GameObject:
   - component: {fileID: 1735070499}
   - component: {fileID: 1735070498}
   - component: {fileID: 1735070497}
+  - component: {fileID: 1735070500}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -11811,7 +14603,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1735070498}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1735070500}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1735070498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11850,6 +14654,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735070495}
   m_CullTransparentMesh: 1
+--- !u!114 &1735070500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735070495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1738294018
 GameObject:
   m_ObjectHideFlags: 0
@@ -11862,6 +14679,7 @@ GameObject:
   - component: {fileID: 1738294022}
   - component: {fileID: 1738294021}
   - component: {fileID: 1738294020}
+  - component: {fileID: 1738294023}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -11931,7 +14749,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1738294021}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1738294023}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1738294021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11970,6 +14800,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738294018}
   m_CullTransparentMesh: 1
+--- !u!114 &1738294023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738294018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1761486995
 GameObject:
   m_ObjectHideFlags: 0
@@ -11982,6 +14825,7 @@ GameObject:
   - component: {fileID: 1761486999}
   - component: {fileID: 1761486998}
   - component: {fileID: 1761486997}
+  - component: {fileID: 1761487000}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -12051,7 +14895,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1761486998}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761487000}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1761486998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12090,6 +14946,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761486995}
   m_CullTransparentMesh: 1
+--- !u!114 &1761487000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761486995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1784775361
 GameObject:
   m_ObjectHideFlags: 0
@@ -12177,8 +15046,9 @@ GameObject:
   - component: {fileID: 1792666169}
   - component: {fileID: 1792666168}
   - component: {fileID: 1792666167}
+  - component: {fileID: 1792666170}
   m_Layer: 5
-  m_Name: T
+  m_Name: 30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12246,7 +15116,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1792666168}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1792666170}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1792666168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12285,6 +15167,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792666165}
   m_CullTransparentMesh: 1
+--- !u!114 &1792666170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792666165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1794610947
 GameObject:
   m_ObjectHideFlags: 0
@@ -12540,6 +15435,7 @@ GameObject:
   - component: {fileID: 1870957809}
   - component: {fileID: 1870957808}
   - component: {fileID: 1870957807}
+  - component: {fileID: 1870957810}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -12609,7 +15505,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1870957808}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1870957810}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1870957808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12648,6 +15556,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870957805}
   m_CullTransparentMesh: 1
+--- !u!114 &1870957810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870957805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1893795769
 GameObject:
   m_ObjectHideFlags: 0
@@ -12742,6 +15663,7 @@ GameObject:
   - component: {fileID: 1895194430}
   - component: {fileID: 1895194429}
   - component: {fileID: 1895194428}
+  - component: {fileID: 1895194431}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -12811,7 +15733,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1895194429}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1895194431}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1895194429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12850,6 +15784,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895194426}
   m_CullTransparentMesh: 1
+--- !u!114 &1895194431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895194426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1919182983
 GameObject:
   m_ObjectHideFlags: 0
@@ -12937,6 +15884,7 @@ GameObject:
   - component: {fileID: 1925131930}
   - component: {fileID: 1925131929}
   - component: {fileID: 1925131928}
+  - component: {fileID: 1925131931}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -13006,7 +15954,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1925131929}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1925131931}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1925131929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13045,6 +16005,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925131926}
   m_CullTransparentMesh: 1
+--- !u!114 &1925131931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925131926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1950246330
 GameObject:
   m_ObjectHideFlags: 0
@@ -13057,6 +16030,7 @@ GameObject:
   - component: {fileID: 1950246334}
   - component: {fileID: 1950246333}
   - component: {fileID: 1950246332}
+  - component: {fileID: 1950246335}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -13126,7 +16100,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1950246333}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1950246335}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1950246333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13165,6 +16151,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950246330}
   m_CullTransparentMesh: 1
+--- !u!114 &1950246335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950246330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &1952143329
 GameObject:
   m_ObjectHideFlags: 0
@@ -13177,6 +16176,7 @@ GameObject:
   - component: {fileID: 1952143333}
   - component: {fileID: 1952143332}
   - component: {fileID: 1952143331}
+  - component: {fileID: 1952143334}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -13246,7 +16246,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1952143332}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1952143334}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1952143332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13284,6 +16296,94 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952143329}
+  m_CullTransparentMesh: 1
+--- !u!114 &1952143334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952143329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
+--- !u!1 &1961508190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1961508191}
+  - component: {fileID: 1961508193}
+  - component: {fileID: 1961508192}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1961508191
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961508190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1479298625}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 7.5}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1961508192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961508190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b618a4750ef81c94c8bcde0fae940691, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1961508193
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961508190}
   m_CullTransparentMesh: 1
 --- !u!1 &1973413891
 GameObject:
@@ -13360,6 +16460,128 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973413891}
   m_CullTransparentMesh: 1
+--- !u!1 &2016479698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016479699}
+  - component: {fileID: 2016479702}
+  - component: {fileID: 2016479701}
+  - component: {fileID: 2016479700}
+  m_Layer: 5
+  m_Name: To3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2016479699
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016479698}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1450211417}
+  - {fileID: 568342411}
+  m_Father: {fileID: 1322404850}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -40, y: -40}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2016479700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016479698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2016479701}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2016479701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016479698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.3137255}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2016479702
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016479698}
+  m_CullTransparentMesh: 1
 --- !u!1 &2017782457
 GameObject:
   m_ObjectHideFlags: 0
@@ -13418,7 +16640,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &2017782460
 Canvas:
   m_ObjectHideFlags: 0
@@ -13428,7 +16650,7 @@ Canvas:
   m_GameObject: {fileID: 2017782457}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -13449,19 +16671,20 @@ RectTransform:
   m_GameObject: {fileID: 2017782457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 385414694}
   - {fileID: 1632286956}
   - {fileID: 1702146448}
+  - {fileID: 1322404850}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2023016142
 GameObject:
   m_ObjectHideFlags: 0
@@ -13474,6 +16697,7 @@ GameObject:
   - component: {fileID: 2023016146}
   - component: {fileID: 2023016145}
   - component: {fileID: 2023016144}
+  - component: {fileID: 2023016147}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -13543,7 +16767,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2023016145}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2023016147}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2023016145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13582,6 +16818,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023016142}
   m_CullTransparentMesh: 1
+--- !u!114 &2023016147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023016142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &2037645103
 GameObject:
   m_ObjectHideFlags: 0
@@ -13659,7 +16908,7 @@ Transform:
   m_GameObject: {fileID: 2037645103}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 100, y: 100, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -13676,8 +16925,9 @@ GameObject:
   - component: {fileID: 2050574561}
   - component: {fileID: 2050574560}
   - component: {fileID: 2050574559}
+  - component: {fileID: 2050574562}
   m_Layer: 5
-  m_Name: T
+  m_Name: 35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13745,7 +16995,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2050574560}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2050574562}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2050574560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13784,6 +17046,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050574557}
   m_CullTransparentMesh: 1
+--- !u!114 &2050574562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050574557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &2080169379
 GameObject:
   m_ObjectHideFlags: 0
@@ -13796,6 +17071,7 @@ GameObject:
   - component: {fileID: 2080169383}
   - component: {fileID: 2080169382}
   - component: {fileID: 2080169381}
+  - component: {fileID: 2080169384}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -13865,7 +17141,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2080169382}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2080169384}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2080169382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13904,6 +17192,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080169379}
   m_CullTransparentMesh: 1
+--- !u!114 &2080169384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080169379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &2099798303
 GameObject:
   m_ObjectHideFlags: 0
@@ -13916,8 +17217,9 @@ GameObject:
   - component: {fileID: 2099798307}
   - component: {fileID: 2099798306}
   - component: {fileID: 2099798305}
+  - component: {fileID: 2099798308}
   m_Layer: 5
-  m_Name: T
+  m_Name: 45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13985,7 +17287,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2099798306}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2099798308}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2099798306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14024,6 +17338,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099798303}
   m_CullTransparentMesh: 1
+--- !u!114 &2099798308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099798303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &2114402571
 GameObject:
   m_ObjectHideFlags: 0
@@ -14036,8 +17363,9 @@ GameObject:
   - component: {fileID: 2114402575}
   - component: {fileID: 2114402574}
   - component: {fileID: 2114402573}
+  - component: {fileID: 2114402576}
   m_Layer: 5
-  m_Name: T
+  m_Name: 84
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14105,7 +17433,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2114402574}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2114402576}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2114402574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14144,6 +17484,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114402571}
   m_CullTransparentMesh: 1
+--- !u!114 &2114402576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114402571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &2115092138
 GameObject:
   m_ObjectHideFlags: 0
@@ -14156,6 +17509,7 @@ GameObject:
   - component: {fileID: 2115092142}
   - component: {fileID: 2115092141}
   - component: {fileID: 2115092140}
+  - component: {fileID: 2115092143}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -14225,7 +17579,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2115092141}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2115092143}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2115092141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14264,6 +17630,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115092138}
   m_CullTransparentMesh: 1
+--- !u!114 &2115092143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115092138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &2123258236
 GameObject:
   m_ObjectHideFlags: 0
@@ -14276,6 +17655,7 @@ GameObject:
   - component: {fileID: 2123258240}
   - component: {fileID: 2123258239}
   - component: {fileID: 2123258238}
+  - component: {fileID: 2123258241}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -14345,7 +17725,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2123258239}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2123258241}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2123258239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14384,6 +17776,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123258236}
   m_CullTransparentMesh: 1
+--- !u!114 &2123258241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123258236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &2131728342
 GameObject:
   m_ObjectHideFlags: 0
@@ -14396,6 +17801,7 @@ GameObject:
   - component: {fileID: 2131728346}
   - component: {fileID: 2131728345}
   - component: {fileID: 2131728344}
+  - component: {fileID: 2131728347}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -14465,7 +17871,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2131728345}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2131728347}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2131728345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14504,6 +17922,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131728342}
   m_CullTransparentMesh: 1
+--- !u!114 &2131728347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131728342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &2139769657
 GameObject:
   m_ObjectHideFlags: 0
@@ -14516,6 +17947,7 @@ GameObject:
   - component: {fileID: 2139769661}
   - component: {fileID: 2139769660}
   - component: {fileID: 2139769659}
+  - component: {fileID: 2139769662}
   m_Layer: 5
   m_Name: T
   m_TagString: Untagged
@@ -14585,7 +18017,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2139769660}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2139769662}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2139769660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14624,6 +18068,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139769657}
   m_CullTransparentMesh: 1
+--- !u!114 &2139769662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139769657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
 --- !u!1 &2142365961
 GameObject:
   m_ObjectHideFlags: 0
@@ -14636,8 +18093,9 @@ GameObject:
   - component: {fileID: 2142365965}
   - component: {fileID: 2142365964}
   - component: {fileID: 2142365963}
+  - component: {fileID: 2142365966}
   m_Layer: 5
-  m_Name: T
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14705,7 +18163,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2142365964}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2142365966}
+        m_TargetAssemblyTypeName: BuildTower, Assembly-CSharp
+        m_MethodName: Build
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2142365964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14744,3 +18214,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142365961}
   m_CullTransparentMesh: 1
+--- !u!114 &2142365966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142365961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a65f60b0818b4b40b88a4f3c8334023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1322404849}
