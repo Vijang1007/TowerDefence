@@ -14,9 +14,13 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text Goldtext;
     public GameObject OptionUI;
+    public GameObject OptionBG;
+
     public List<GameObject> T = new List<GameObject>();
 
     public List<GameObject> Tower = new List<GameObject>();
+
+    public List<GameObject> Option = new List<GameObject>();
 
     void Awake()
     {
@@ -50,13 +54,18 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0;
         isPlay = false;
         OptionUI.SetActive(true);
-        for(int i = 0;i < 83; i++)
+        OptionBG.SetActive(true);
+        for(int i = 0;i < 84; i++)
         {
             T[i].GetComponent<Image>().raycastTarget = false;
         }
-        for (int z = 0; z < 4; z++)
+        for (int i = 0; i < 4; i++)
         {
-            Tower[z].GetComponent<Image>().raycastTarget = false;
+            Tower[i].GetComponent<Image>().raycastTarget = false;
+        }
+        for (int i = 0; i < 3; i++)
+        {
+            Option[i].GetComponent<Image>().raycastTarget = false;
         }
 
     }
@@ -66,13 +75,18 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         isPlay = true;
         OptionUI.SetActive(false);
-        for (int i = 0; i < 83; i++)
+        OptionBG.SetActive(false);
+        for (int i = 0; i < 84; i++)
         {
             T[i].GetComponent<Image>().raycastTarget = true;
         }
         for (int z = 0; z < 4; z++)
         {
             Tower[z].GetComponent<Image>().raycastTarget = true;
+        }
+        for (int i = 0; i < 3; i++)
+        {
+            Option[i].GetComponent<Image>().raycastTarget = true;
         }
     }
 
